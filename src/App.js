@@ -5,12 +5,13 @@ import Home from './HomePage';
 import FormPage from './FormPage';
 import About from './AboutPage';
 import NotFound from './NotFoundPage';
+import './App.css';
 
 function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <nav id='navbar'>
           <ul>
             <li>
               <Link to="/">Home</Link>

@@ -31,7 +31,7 @@ const onSubmit = (values) => {
 function FormPage() {
   return (
 
-    <div className="items-center flex justify-center">
+    <div>
       <h2>Vamos começar!</h2>
       <Formik
       initialValues={initialValues}

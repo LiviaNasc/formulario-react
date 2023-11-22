@@ -31,7 +31,7 @@ const onSubmit = (values) => {
 function FormPage() {
   return (
 
-    <div className='bg-gradient-to-b from-cyan-500 to-blue-500 pt-20 pb-10'>
+    <div className='bg-gradient-to-b from-cyan-500 to-blue-500 pt-20 pb-10 min-w-500px'>
       <Formik
       initialValues={initialValues}
       validationSchema={validationSchema}
@@ -104,7 +104,7 @@ function FormPage() {
             <Field as="textarea" id="comments" name="comments" placeholder="Insira seu comentário aqui..." className='border-1 border-white rounded-5 bg-opacity-10 text-black w-full'/>
             <ErrorMessage name="comments" component="div" className="error" />
           </div>
-          <div className="justify-conten">
+          <div className="text-center">
             <button type="submit" id="submit" className="bg-blue-500 text-white p-4 text-18 rounded-5 cursor-pointer mt-10">
               Enviar
             </button>

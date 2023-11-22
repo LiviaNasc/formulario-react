@@ -17,6 +17,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  position: fixed;
 }
 
 nav ul {
@@ -38,4 +39,9 @@ nav a {
 
 nav a:hover {
   color: lightgray;
+}
+
+.content {
+  margin-top: 50px; 
+  padding: 20px;
 }

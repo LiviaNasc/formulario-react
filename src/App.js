@@ -27,12 +27,14 @@ function App() {
 
         <hr />
 
+        <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<FormPage />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </div>
       </div>
     </Router>
   );

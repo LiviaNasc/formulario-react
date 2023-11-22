@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className='bg-gray-800 p-4 flex w-full justify-end'>
+        <nav className='bg-gray-800 p-4 flex w-full justify-end fixed'>
           <ul className='flex text-white font-bold '>
             <li>
               <Link to="/" className='mr-8 hover:text-gray-300'>Home </Link>
@@ -27,7 +27,7 @@ function App() {
 
         <hr />
 
-        <div className="p-3">
+        <div className="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<FormPage />} />

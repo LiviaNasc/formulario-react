@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
 *{
   margin: 0;
   padding: 0;
@@ -44,4 +45,4 @@ nav a:hover {
 .content {
   margin-top: 50px; 
   padding: 20px;
-}
+}*/

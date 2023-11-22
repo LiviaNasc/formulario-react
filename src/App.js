@@ -11,23 +11,23 @@ function App() {
   return (
     <Router>
       <div>
-        <nav id='navbar'>
-          <ul>
+        <nav className='bg-gray-800 p-4 flex w-full justify-end'>
+          <ul className='flex text-white font-bold '>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className='mr-8 hover:text-gray-300'>Home </Link>
             </li>
             <li>
-              <Link to="/form">Formulário</Link>
+              <Link to="/form" className='mr-8 hover:text-gray-300'>Formulário </Link>
             </li>
             <li>
-              <Link to="/about">Sobre</Link>
+              <Link to="/about" className='mr-8 hover:text-gray-300'>Sobre </Link>
             </li>
           </ul>
         </nav>
 
         <hr />
 
-        <div className="content">
+        <div className="p-3">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<FormPage />} />
